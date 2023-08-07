@@ -15,28 +15,6 @@ void set_Cursor(int x, int y);
 
 void led_data(uint8_t data);
 
-// void draw_Zero(int xPos, int yPos);
-
-// void draw_One(int xPos, int yPos);
-
-// void draw_Two(int xPos, int yPos);
-
-// void draw_Three(int xPos, int yPos);
-
-// void draw_Four(int xPos, int yPos);
-
-// void draw_Five(int xPos, int yPos);
-
-// void draw_Six(int xPos, int yPos);
-
-// void draw_Seven(int xPos, int yPos);
-
-// void draw_Eight(int xPos, int yPos);
-
-// void draw_Nine(int xPos, int yPos);
-
-// void draw_Num(int num, int xPos,int yPos);
-
 void dra_five(int xPos, int yPos);
 
 void dra_two(int xPos, int yPos);
