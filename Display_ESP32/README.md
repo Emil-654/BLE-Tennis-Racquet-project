@@ -9,3 +9,6 @@ I2C driver for the SSD1306 OLED display. Contains helper functions along with a 
 ## gatt_client_main.c
 
 Main file for the display. BLE is initialized here and configured as a client. It will begin scanning for servers and then will connect to the right GATT server.  An X is displayed until this connection happens. Services and characteristics will then be obtained from the server. In this project there are 6 characteristics: X,Y,Z value of the acceleration and X,Y,Z value of the angular velocity. In the RTOS task, each characteristic is then read as signed 16 bit integers, converted to floats, digits extracted from the floats and then displayed. Upon disconnection, the X is displayed until a reconnection.
+
+## Hardware
+SDA was GPIO pin 21 and SCL was GPIO pin 22, these were connected to the corresponding SCL/SDA pins of the SSD1306. The SSD1306 was powered from the 3.3V pin of the ESP32 and GND.
