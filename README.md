@@ -1,2 +1,2 @@
-# Tennis-racquet-data-project
-Project consists of 2 ESP32s, one is on a tennis racquet collecting swing data. The data is sent over BLE to the other ESP32 where the data is displayed. 
+# BLE Tennis Racquet project
+Project consists of 2 ESP32s, one is on a tennis racquet collecting acceleration and angular velocity, the other is connected to an SSD1306 OLED display where the swing data is displayed. The data is transmitted over BLE.
